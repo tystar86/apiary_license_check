@@ -57,19 +57,14 @@ Please see the [requirements.txt](https://github.com/tystar86/apiary_license_che
       is saying that wrong version is given.
 The available options are:
 
-Name                   | Description
----------------------- | ----------------------------------------------------------
-`requireBlueprintName` | Require parsed blueprints have a title (default: false)
-`generateSourceMap`    | Enable sourcemap generation (default: false)
-`type`                 | Set the output structure type as either `ast` or `refract` (default: `refract`)
+Name                                 | Description
+------------------------------------ | ----------------------------------------------------------
+`REPOSITORIES TOTAL:`                | total count of all repositories for the user
+`REPOSITORIES WITHOUT LICENSE FILE:` | 
+`REPOSITORIES WITHOUT LICENSE:`      | Set the output structure type as either `ast` or `refract` (default: `refract`)
 
 **NOTE**: *The `ast` option is deprecated in favour of `refract`.*
-      
-     Name                           | Description
------------------------------------ | ----------------------------------------------------------
-`REPOSITORIES TOTAL:`               | total count of all repositories for the user
-`REPOSITORIES WITHOUT LICENSE FILE:`| 
-`REPOSITORIES WITHOUT LICENSE:`     | repositories without any license in license, readme or package.json file
+
       ```     
       ### File output
 
