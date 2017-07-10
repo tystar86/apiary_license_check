@@ -55,7 +55,7 @@ Please see the [requirements.txt](https://github.com/tystar86/apiary_license_che
         REPOSITORIES WITHOUT LICENSE: 9 : ['api-blueprint-rfcs', 'apiaryio.github.com', 'coffeescript-style-guide', 'JSON-js', 'kit-tooling', 'natalie-venuto-test', 'OKApi', 'raven-node', 'tully-test']
       ```
 * **404 DEPENDENCIES: repo: broker , name: engine.io , version: Snyk/engine.io#1.6.11-patched** 
-      is saying where and what wrong is given (valid version is for example: 2.0.0).
+      is saying where and what was given wrong (valid version is for example: 2.0.0).
      
      
 Name                                  | Description
