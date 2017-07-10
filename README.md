@@ -39,6 +39,7 @@ Please see the [requirements.txt](https://github.com/tystar86/apiary_license_che
       ```
       ### Console output
 
+
         404 DEPENDENCIES: repo: apiblueprintorg , name: winston , version: git://github.com/apiaryio/winston.git#production
         404 DEPENDENCIES: repo: blueprint-parser , name: pegjs , version: git://github.com/dmajda/pegjs.git#02af83f9b416778878e52e2cbbc22d96e312164e
         404 DEPENDENCIES: repo: broker , name: engine.io , version: Snyk/engine.io#1.6.11-patched
@@ -66,8 +67,8 @@ Name                                  | Description
 ```     
 
 
-
   ### File output
+
 
     REPO:  dredd-hooks-template
     LICENSE :  MIT
