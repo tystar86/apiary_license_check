@@ -19,7 +19,7 @@
 
 ### Getting Started
 
-If you will run this app for the first time, please follow the `Quick Start 1` as you do not have yet `auth_key.txt` and any file to compare with. 
+If you will run this app for the first time, please follow the `Quick Start 1` as you do not have `auth_key.txt` and any file to compare with yet. 
 
 ### Prerequisites
 
@@ -28,7 +28,7 @@ Please see the [requirements.txt](https://github.com/tystar86/apiary_license_che
 
 ### Quick Start 1
 
-1.  Create a file called `auth_key.txt` with Github token in the same directory.
+1.  Create file `auth_key.txt` with Github token in the same directory.
     
 2.  Run:
         ```
@@ -64,6 +64,8 @@ Name                                  | Description
 `REPOSITORIES WITHOUT LICENSE:`       | repositories without any license (license, readme and package.json files)
 
 ```     
+
+
 
   ### File output
 
