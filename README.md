@@ -35,19 +35,49 @@ Please see the [requirements.txt](https://github.com/tystar86/apiary_license_che
     $ python3 license_check.py
     ```
     
-3. In console you will get some basics results, for more details please see the created file.
-              ```
-      # license_check.py
-      Will create a file `license_check`
-
-      ## Console output
+3. In console you will get some basics results, for more details please see the created file with DateTime stamp `license_check`.
+      ```
+      ### Console output
 
       - id: 1 (number, required) - The unique identifier for a product
       - name: A green door (string, required) - Name of the product
       - price: 12.50 (number, required)
       - tags: home, green (array[string])
       
-      ## File output
+      ### File output
+
+      - id: 1 (number, required) - The unique identifier for a product
+      - name: A green door (string, required) - Name of the product
+      - price: 12.50 (number, required)
+      - tags: home, green (array[string])
+      ```
+      
+
+## Quick Start 2
+
+1.  Run interactive configuration:
+
+    ```shell
+    $ python3 license_check.py license_check
+    ```
+    
+2. In console you will get some basics results, for more details please see the created file with DateTime stamp `license_check`.
+      ```
+      ### Console output
+
+      - id: 1 (number, required) - The unique identifier for a product
+      - name: A green door (string, required) - Name of the product
+      - price: 12.50 (number, required)
+      - tags: home, green (array[string])
+      
+      ### File output
+
+      - id: 1 (number, required) - The unique identifier for a product
+      - name: A green door (string, required) - Name of the product
+      - price: 12.50 (number, required)
+      - tags: home, green (array[string])
+      
+      ### Compare file
 
       - id: 1 (number, required) - The unique identifier for a product
       - name: A green door (string, required) - Name of the product
