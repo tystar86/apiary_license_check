@@ -84,6 +84,7 @@ Name                                     | Description
 `dependencies/ devDependencies:`         | listing all dependencies and their license type
 `PULLS:                            `     | if present it compares master files with head files
 
+---
 
 ## Quick Start 2
 
