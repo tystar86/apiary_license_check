@@ -84,3 +84,12 @@ Please see the [requirements.txt](https://github.com/tystar86/apiary_license_che
       - price: 12.50 (number, required)
       - tags: home, green (array[string])
       ```
+  3. File `compare_files_%Y-%m-%d_%H:%M:%S` will be created. You can see it forcompare details.
+        ```
+        ### compare_files_2017-10-21_12:45:56
+
+      - id: 1 (number, required) - The unique identifier for a product
+      - name: A green door (string, required) - Name of the product
+      - price: 12.50 (number, required)
+      - tags: home, green (array[string])
+      ```
