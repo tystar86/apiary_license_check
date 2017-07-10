@@ -39,10 +39,20 @@ Please see the [requirements.txt](https://github.com/tystar86/apiary_license_che
       ```
       ### Console output
 
-      - id: 1 (number, required) - The unique identifier for a product
-      - name: A green door (string, required) - Name of the product
-      - price: 12.50 (number, required)
-      - tags: home, green (array[string])
+        404 DEPENDENCIES: repo:  apiblueprintorg , name:  winston , version:  git://github.com/apiaryio/winston.git#production
+        404 DEPENDENCIES: repo:  blueprint-parser , name:  pegjs , version:               git://github.com/dmajda/pegjs.git#02af83f9b416778878e52e2cbbc22d96e312164e
+        404 DEPENDENCIES: repo:  broker , name:  engine.io , version:  Snyk/engine.io#1.6.11-patched
+        404 DEPENDENCIES: repo:  broker , name:  engine.io-client , version:  Snyk/engine.io-client#1.6.11-patched
+        404 DEPENDENCIES: repo:  cloudwatch-to-papertrail , name:  winston-papertrail , version:  hyrwork/winston-papertrail
+        404 DEPENDENCIES: repo:  difflet , name:  traverse , version:  https://github.com/apiaryio/js-traverse/tarball/master
+        404 DEPENDENCIES: repo:  gavel.js , name:  jsonlint , version:  git+https://git@github.com/josdejong/jsonlint.git
+
+        REPOSITORIES TOTAL: 147
+
+        REPOSITORIES WITHOUT LICENSE FILE: 30 : ['abagnale', 'api-blueprint-rfcs', 'apiaryio.github.com', 'batch', 'cloudwatch-to-papertrail', 'coffeescript-style-guide', 'difflet', 'documentation', 'dtl', 'dtl-1', 'googlediff', 'gzippo', 'heroku-datadog-drain', 'homebrew', 'hubot-redis-brain', 'JSON-js', 'kit-tooling', 'knox-mpu', 'lester', 'mongoose-dbref', 'natalie-venuto-test', 'nginx-buildpack', 'OKApi', 'pitboss', 'raven-node', 'stripe_to_xero', 'sundown', 'tully-test', 'uritemplate-js', 'winston-sentry']
+
+        REPOSITORIES WITHOUT LICENSE: 9 : ['api-blueprint-rfcs', 'apiaryio.github.com', 'coffeescript-style-guide', 'JSON-js', 'kit-tooling', 'natalie-venuto-test', 'OKApi', 'raven-node', 'tully-test']
+
       
       ### File output
 
