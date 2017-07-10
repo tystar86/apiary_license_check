@@ -22,8 +22,8 @@ If you will run this app for the first time, please follow the `Quick Start 1` a
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
 Please see the [requirements.txt](https://github.com/tystar86/apiary_license_check/blob/master/requirements.txt) for libraries you need to install.
+
 
 ## Quick Start 1
 
@@ -74,7 +74,14 @@ Name                                     | Description
         PULLS:
         master:  [('LICENSE', 'MIT'), ('README.md', None), ('package.json', 'MIT')] head:  [('README.md', None)]
  ```
-      * **REPO:** repository name, **LICENSE:** type of license, if not present = license file not in the repository, **README:** type of license, if None = readme file is in the directory but contains nothing about license, if not present = readme file not in the repository, **dependencies**/ **devDependencies:**listing all dependencies and their license type, **PULLS:** if present it compares master files with head files
+      **LICENSE:** , **** , ****, **** 
+Name                                     | Description
+---------------------------------------- | ----------------------------------------------------------
+`REPO:`                                  | repository name
+`LICENSE:`                               | type of license, if not present = license file not in the repository
+`README:`                                | type of license, if None = readme file is in the directory but contains nothing about license, if not present = readme file not in the repository
+`dependencies/ devDependencies:`         | listing all dependencies and their license type
+`PULLS:                            `     | if present it compares master files with head files
 
 
 ## Quick Start 2
