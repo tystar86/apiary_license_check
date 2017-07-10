@@ -53,9 +53,10 @@ Please see the [requirements.txt](https://github.com/tystar86/apiary_license_che
 
         REPOSITORIES WITHOUT LICENSE: 9 : ['api-blueprint-rfcs', 'apiaryio.github.com', 'coffeescript-style-guide', 'JSON-js', 'kit-tooling', 'natalie-venuto-test', 'OKApi', 'raven-node', 'tully-test']
       ```
-      * `404 DEPENDENCIES: repo: apiblueprintorg , name: winston , version: git://github.com/apiaryio/winston.git#production` is saying that as a version is written `git://github.com/apiaryio/winston.git#production` instead of for `example 1.6.11`.
-      * `REPOSITORIES TOTAL: `, `REPOSITORIES WITHOUT LICENSE FILE:`, `REPOSITORIES WITHOUT LICENSE:` 
+      * `404 DEPENDENCIES: repo: apiblueprintorg , name: winston , version: git://github.com/apiaryio/winston.git#production` is saying that as a version is written **git://github.com/apiaryio/winston.git#production** instead of for **example 1.6.11**.
+      * `REPOSITORIES TOTAL: `(total count of all repositories for the user), `REPOSITORIES WITHOUT LICENSE FILE:`, `REPOSITORIES WITHOUT LICENSE: `(repositories without any license in license, readme or package.json file)
   
+      
       
       ```     
       ### File output
@@ -69,7 +70,8 @@ Please see the [requirements.txt](https://github.com/tystar86/apiary_license_che
         PULLS:
         master:  [('LICENSE', 'MIT'), ('README.md', None), ('package.json', 'MIT')] head:  [('README.md', None)]
       ```
-      * `REPO: `(repository name), `LICENSE: `(type of license, if not present = license file not in the repository), `README: `(type of license, if None = readme file is in the directory but contains nothing about license, if not present = readme file not in the repository), `dependencies`/ `devDependencies`(listing all dependencies and their license type), `PULLS: `(if present it compares master files with head files)
+      * **REPO:** (repository name), **LICENSE:** (type of license, if not present = license file not in the repository), **README:** (type of license, if None = readme file is in the directory but contains nothing about license, if not present = readme file not in the repository), **dependencies**/ **devDependencies**(listing all dependencies and their license type), **PULLS:** (if present it compares master files with head files)
+
 
 ## Quick Start 2
 
