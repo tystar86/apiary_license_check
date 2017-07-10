@@ -39,13 +39,13 @@ Please see the [requirements.txt](https://github.com/tystar86/apiary_license_che
       ```
       ### Console output
 
-        404 DEPENDENCIES: repo:  apiblueprintorg , name:  winston , version:  git://github.com/apiaryio/winston.git#production
-        404 DEPENDENCIES: repo:  blueprint-parser , name:  pegjs , version:            git://github.com/dmajda/pegjs.git#02af83f9b416778878e52e2cbbc22d96e312164e
-        404 DEPENDENCIES: repo:  broker , name:  engine.io , version:  Snyk/engine.io#1.6.11-patched
-        404 DEPENDENCIES: repo:  broker , name:  engine.io-client , version:  Snyk/engine.io-client#1.6.11-patched
-        404 DEPENDENCIES: repo:  cloudwatch-to-papertrail , name:  winston-papertrail , version:  hyrwork/winston-papertrail
-        404 DEPENDENCIES: repo:  difflet , name:  traverse , version:  https://github.com/apiaryio/js-traverse/tarball/master
-        404 DEPENDENCIES: repo:  gavel.js , name:  jsonlint , version:  git+https://git@github.com/josdejong/jsonlint.git
+        404 DEPENDENCIES: repo: apiblueprintorg , name: winston , version: git://github.com/apiaryio/winston.git#production
+        404 DEPENDENCIES: repo: blueprint-parser , name: pegjs , version: git://github.com/dmajda/pegjs.git#02af83f9b416778878e52e2cbbc22d96e312164e
+        404 DEPENDENCIES: repo: broker , name: engine.io , version: Snyk/engine.io#1.6.11-patched
+        404 DEPENDENCIES: repo: broker , name: engine.io-client , version: Snyk/engine.io-client#1.6.11-patched
+        404 DEPENDENCIES: repo: cloudwatch-to-papertrail , name:  winston-papertrail , version: hyrwork/winston-papertrail
+        404 DEPENDENCIES: repo: difflet , name: traverse , version: https://github.com/apiaryio/js-traverse/tarball/master
+        404 DEPENDENCIES: repo: gavel.js , name: jsonlint , version: git+https://git@github.com/josdejong/jsonlint.git
 
         REPOSITORIES TOTAL: 147
 
