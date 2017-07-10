@@ -62,7 +62,7 @@ Name                                     | Description
 **NOTE**: *404 DEPENDENCIES:repo: apiblueprintorg, name: winston, version git://github.com/apiaryio/winston.git#production 
       is saying that wrong version is given.*
 
-      ```     
+        ```     
       ### File output
 
         REPO:  dredd-hooks-template
