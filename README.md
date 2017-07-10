@@ -31,10 +31,9 @@ Please see the [requirements.txt](https://github.com/tystar86/apiary_license_che
 1.  Create a file called `auth_key.txt` with Github token in the same directory.
     
 2.  Run:
-
-    ```shell
-    $ python3 license_check.py
-    ```
+        ```sh
+        $ python3 license_check.py
+        ```
     
 3. In console you will get some basics results, for more details please see the created file `license_check_%Y-%m-%d_%H:%M:%S`.
       ```
