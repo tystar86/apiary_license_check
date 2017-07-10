@@ -25,17 +25,17 @@ If you will run this app for the first time, please follow the `Quick Start 1` a
 Please see the [requirements.txt](https://github.com/tystar86/apiary_license_check/blob/master/requirements.txt) for libraries you need to install.
 
 
-## Quick Start 1
+### Quick Start 1
 
 1.  Create a file called `auth_key.txt` with Github token in the same directory.
     
-2.  Run interactive configuration:
+2.  Run:
 
     ```shell
     $ python3 license_check.py
     ```
     
-3. In console you will get some basics results, for more details please see the created file with DateTime stamp `license_check`.
+3. In console you will get some basics results, for more details please see the created file `license_check_%Y-%m-%d_%H:%M:%S`.
       ```
       ### Console output
 
@@ -59,20 +59,20 @@ Name                                  | Description
 `REPOSITORIES WITHOUT LICENSE FILE:`  | 
 `REPOSITORIES WITHOUT LICENSE:`       | 
 
-**NOTE**: *404 DEPENDENCIES:repo: apiblueprintorg, name: winston, version git://github.com/apiaryio/winston.git#production 
-      is saying that wrong version is given.*
+* **404 DEPENDENCIES: repo: apiblueprintorg, name: winston, version git://github.com/apiaryio/winston.git#production** 
+      is saying where and what wrong version is given (valid version is for example: 2.0.0).
 
 ```     
-      ### File output
+  ### File output
 
-        REPO:  dredd-hooks-template
-        LICENSE :  MIT
-        README.md :  None
-        package.json :  MIT
-        devDependencies : 
-        ('gherkin-lint', '^2.0.0', 'ISC')
-        PULLS:
-        master:  [('LICENSE', 'MIT'), ('README.md', None), ('package.json', 'MIT')] head:  [('README.md', None)]
+    REPO:  dredd-hooks-template
+    LICENSE :  MIT
+    README.md :  None
+    package.json :  MIT
+    devDependencies : 
+    ('gherkin-lint', '^2.0.0', 'ISC')
+    PULLS:
+    master:  [('LICENSE', 'MIT'), ('README.md', None), ('package.json', 'MIT')] head:  [('README.md', None)]
  ```
  
 Name                                     | Description
