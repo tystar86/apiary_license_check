@@ -80,13 +80,14 @@ Name                                     | Description
 `REPO:`                                  | repository name
 `LICENSE:`                               | type of license, if not present = license file not in the repository
 `README:`                                | type of license, if None = readme file is in the directory but contains nothing about license, if not present = readme file not in the repository
+`package.json:`                          | type of license, if None = package.json file is in the directory but contains nothing about license, if not present = package.json file not in the repository
 `dependencies/ devDependencies:`         | listing all dependencies and their license type
 `PULLS:                            `     | if present it compares master files with head files
 
 
 ## Quick Start 2
 
-1.  Run interactive configuration:
+1.  Run:
 
     ```shell
     $ python3 license_check.py license_check_2017-11-23_14:51:47
@@ -95,7 +96,7 @@ Name                                     | Description
 2. Please see **Quick Start 1 point 3.** 
    
       
-3. File `compare_files_%Y-%m-%d_%H:%M:%S` will be created. You can see it for compare details.
+3. File `compare_files_%Y-%m-%d_%H:%M:%S` will be created. If compared files are same, the file will contain only their names.
     ```     
       ### compare_files_2017-10-21_12:45:56
 
