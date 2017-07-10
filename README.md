@@ -56,11 +56,11 @@ Please see the [requirements.txt](https://github.com/tystar86/apiary_license_che
       * **404 DEPENDENCIES:repo: apiblueprintorg, name: winston, version: git://github.com/apiaryio/winston.git#production** 
       is saying that wrong version is given.
       
-              Name                          | Description
-        ----------------------------------- | ----------------------------------------------------------
-        `REPOSITORIES TOTAL:`               | total count of all repositories for the user
-        `REPOSITORIES WITHOUT LICENSE FILE:`| 
-        `REPOSITORIES WITHOUT LICENSE:`     | repositories without any license in license, readme or package.json file
+     Name                          | Description
+----------------------------------- | ----------------------------------------------------------
+`REPOSITORIES TOTAL:`               | total count of all repositories for the user
+`REPOSITORIES WITHOUT LICENSE FILE:`| 
+`REPOSITORIES WITHOUT LICENSE:`     | repositories without any license in license, readme or package.json file
       ```     
       ### File output
 
