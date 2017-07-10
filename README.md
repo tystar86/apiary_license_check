@@ -59,7 +59,7 @@ Name                                  | Description
 `REPOSITORIES WITHOUT LICENSE FILE:`  | 
 `REPOSITORIES WITHOUT LICENSE:`       | 
 
-* **404 DEPENDENCIES: repo: apiblueprintorg, name: winston, version git://github.com/apiaryio/winston.git#production** 
+* **404 DEPENDENCIES: repo: broker , name: engine.io , version: Snyk/engine.io#1.6.11-patched** 
       is saying where and what wrong version is given (valid version is for example: 2.0.0).
 
 ```     
