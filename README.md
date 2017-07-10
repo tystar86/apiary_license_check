@@ -1,6 +1,6 @@
 # apiary_license_check
 
-`license_check.py` is checking all apiaryio repos for licenses (master + pull requests: readme, license, package.json) and printing it in a file and compare the file to another file.
+`license_check.py` is checking all apiaryio repos for licenses (master + pull requests: readme, license, package.json) and printing it in a file and then compare the file to another file.
 
 > **TASK**:
 >I have Github organization (for example: github.com/apiaryio/) and I
@@ -35,7 +35,7 @@ Please see the [requirements.txt](https://github.com/tystar86/apiary_license_che
         $ python3 license_check.py
         ```
     
-3. In console you will get some basics results, for more details please see the created file `license_check_%Y-%m-%d_%H:%M:%S`.
+3. In console you will get some basic results, for more details please see the created file `license_check_%Y-%m-%d_%H:%M:%S`.
       ```
       ### Console output
 
