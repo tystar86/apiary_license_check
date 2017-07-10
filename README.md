@@ -58,10 +58,10 @@ Please see the [requirements.txt](https://github.com/tystar86/apiary_license_che
 1.  Run interactive configuration:
 
     ```shell
-    $ python3 license_check.py license_check
+    $ python3 license_check.py license_check_2017-11-23_14:51:47
     ```
     
-2. In console you will get some basics results, for more details please see the created file with DateTime stamp `license_check`.
+2. In console you will get some basics results, for more details please see the created file with DateTime stamp `license_check_%Y-%m-%d_%H:%M:%S`.
       ```
       ### Console output
 
