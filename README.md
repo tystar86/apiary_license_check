@@ -96,7 +96,7 @@ Name                                     | Description
 ## Quick Start 2
 
 1.  Run:
-        ```shell
+        ```
         $ python3 license_check.py license_check_2017-11-23_14:51:47
         ```
     
