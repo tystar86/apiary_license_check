@@ -15,8 +15,9 @@
 >this to detect problematic dependencies before they get merged into
 >master (e.g. detect this during the Pull Request phase).
 
+---
 
-## Getting Started
+### Getting Started
 
 If you will run this app for the first time, please follow the `Quick Start 1` as you do not have yet any file to compare with and `auth_key.txt`. 
 
@@ -83,6 +84,7 @@ Name                                     | Description
 `package.json:`                          | type of license, if None = package.json file is in the directory but contains nothing about license, if not present = package.json file not in the repository
 `dependencies/ devDependencies:`         | listing all dependencies and their license type
 `PULLS:                            `     | if present it compares master files with head files
+
 
 ---
 
