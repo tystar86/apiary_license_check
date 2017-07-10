@@ -55,8 +55,17 @@ Please see the [requirements.txt](https://github.com/tystar86/apiary_license_che
       ```
       * **404 DEPENDENCIES:repo: apiblueprintorg, name: winston, version: git://github.com/apiaryio/winston.git#production** 
       is saying that wrong version is given.
+The available options are:
+
+Name                   | Description
+---------------------- | ----------------------------------------------------------
+`requireBlueprintName` | Require parsed blueprints have a title (default: false)
+`generateSourceMap`    | Enable sourcemap generation (default: false)
+`type`                 | Set the output structure type as either `ast` or `refract` (default: `refract`)
+
+**NOTE**: *The `ast` option is deprecated in favour of `refract`.*
       
-     Name                          | Description
+     Name                           | Description
 ----------------------------------- | ----------------------------------------------------------
 `REPOSITORIES TOTAL:`               | total count of all repositories for the user
 `REPOSITORIES WITHOUT LICENSE FILE:`| 
