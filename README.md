@@ -2,7 +2,7 @@
 
 `license_check.py` is checking all apiaryio repos for licenses (master + pull requests: readme, license, package.json) and printing it in a file and compare the file to another file.
 
-`TASK:
+> **TASK:
 I have Github organization (for example: github.com/apiaryio/) and I
 need to research all public projects about their dependency licenses.
 Are there only MIT, BSD license types in the project and their
@@ -13,7 +13,7 @@ one-time script.
 
 As the second part: We need to think of a solution how we can improve
 this to detect problematic dependencies before they get merged into
-master (e.g. detect this during the Pull Request phase).`
+master (e.g. detect this during the Pull Request phase).**
 
 
 ## Getting Started
