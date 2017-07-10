@@ -19,7 +19,7 @@
 
 ### Getting Started
 
-If you will run this app for the first time, please follow the `Quick Start 1` as you do not have yet any file to compare with and `auth_key.txt`. 
+If you will run this app for the first time, please follow the `Quick Start 1` as you do not have yet `auth_key.txt` and any file to compare with. 
 
 ### Prerequisites
 
@@ -55,7 +55,8 @@ Please see the [requirements.txt](https://github.com/tystar86/apiary_license_che
       ```
 * **404 DEPENDENCIES: repo: broker , name: engine.io , version: Snyk/engine.io#1.6.11-patched** 
       is saying where and what wrong is given (valid version is for example: 2.0.0).
-      
+     
+     
 Name                                  | Description
 ------------------------------------- | ----------------------------------------------------------
 `REPOSITORIES TOTAL:`                 | total count of all repositories for the user
@@ -63,6 +64,7 @@ Name                                  | Description
 `REPOSITORIES WITHOUT LICENSE:`       | repositories without any license (license, readme and package.json files)
 
 ```     
+
   ### File output
 
     REPO:  dredd-hooks-template
@@ -86,6 +88,7 @@ Name                                     | Description
 
 
 ---
+
 
 ## Quick Start 2
 
