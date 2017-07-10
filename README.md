@@ -64,9 +64,9 @@ Name                                  | Description
 `REPOSITORIES WITHOUT LICENSE FILE:`  | repositories without license file
 `REPOSITORIES WITHOUT LICENSE:`       | repositories without any license (license, readme and package.json files)
 
+
+
 ```     
-
-
   ### File output
 
 
