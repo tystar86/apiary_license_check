@@ -62,7 +62,7 @@ Name                                     | Description
 **NOTE**: *404 DEPENDENCIES:repo: apiblueprintorg, name: winston, version git://github.com/apiaryio/winston.git#production 
       is saying that wrong version is given.*
 
-        ```     
+```     
       ### File output
 
         REPO:  dredd-hooks-template
@@ -73,7 +73,7 @@ Name                                     | Description
         ('gherkin-lint', '^2.0.0', 'ISC')
         PULLS:
         master:  [('LICENSE', 'MIT'), ('README.md', None), ('package.json', 'MIT')] head:  [('README.md', None)]
-      ```
+ ```
       * **REPO:** repository name, **LICENSE:** type of license, if not present = license file not in the repository, **README:** type of license, if None = readme file is in the directory but contains nothing about license, if not present = readme file not in the repository, **dependencies**/ **devDependencies:**listing all dependencies and their license type, **PULLS:** if present it compares master files with head files
 
 
