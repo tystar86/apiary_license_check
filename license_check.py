@@ -200,7 +200,7 @@ def compare_files(new_file, old_file):
     f_02 = open(pattern, 'w')
     with open(old_file, 'r') as f1, open(new_file, 'r') as f2:
         diff = difflib.ndiff(f1.readlines(), f2.readlines())
-        f_02.write('File1: {}, File2: {} \n'.format(f1.name, f2.name))
+        f_02.write('Old file: {}, New file: {} \n'.format(f1.name, f2.name))
         for i, line in enumerate(diff):
             if line.startswith(' '):
                 continue
