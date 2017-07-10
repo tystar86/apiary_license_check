@@ -52,14 +52,20 @@ Please see the [requirements.txt](https://github.com/tystar86/apiary_license_che
         REPOSITORIES WITHOUT LICENSE FILE: 30 : ['abagnale', 'api-blueprint-rfcs', 'apiaryio.github.com', 'batch', 'cloudwatch-to-papertrail', 'coffeescript-style-guide', 'difflet', 'documentation', 'dtl', 'dtl-1', 'googlediff', 'gzippo', 'heroku-datadog-drain', 'homebrew', 'hubot-redis-brain', 'JSON-js', 'kit-tooling', 'knox-mpu', 'lester', 'mongoose-dbref', 'natalie-venuto-test', 'nginx-buildpack', 'OKApi', 'pitboss', 'raven-node', 'stripe_to_xero', 'sundown', 'tully-test', 'uritemplate-js', 'winston-sentry']
 
         REPOSITORIES WITHOUT LICENSE: 9 : ['api-blueprint-rfcs', 'apiaryio.github.com', 'coffeescript-style-guide', 'JSON-js', 'kit-tooling', 'natalie-venuto-test', 'OKApi', 'raven-node', 'tully-test']
-
+      ```
       
+      
+      ```     
       ### File output
 
-      - id: 1 (number, required) - The unique identifier for a product
-      - name: A green door (string, required) - Name of the product
-      - price: 12.50 (number, required)
-      - tags: home, green (array[string])
+        REPO:  dredd-hooks-template
+        LICENSE :  MIT
+        README.md :  None
+        package.json :  MIT
+        devDependencies : 
+        ('gherkin-lint', '^2.0.0', 'ISC')
+        PULLS:
+        master:  [('LICENSE', 'MIT'), ('README.md', None), ('package.json', 'MIT')] head:  [('README.md', None)]
       ```
       
 
