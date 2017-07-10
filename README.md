@@ -18,7 +18,7 @@
 
 ## Getting Started
 
-If you will run this app for the first time, please follow the `Quick Start 1` as you do not have yet any file to compare with. 
+If you will run this app for the first time, please follow the `Quick Start 1` as you do not have yet any file to compare with and `auth_key.txt`. 
 
 ### Prerequisites
 
