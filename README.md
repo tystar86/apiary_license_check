@@ -86,7 +86,6 @@ Please see the [requirements.txt](https://github.com/tystar86/apiary_license_che
 3. File `compare_files_%Y-%m-%d_%H:%M:%S` will be created. You can see it forcompare details.
         ```
         ### compare_files_2017-10-21_12:45:56
-
         File1: license_check_2017-07-10_10:32:05.txt, File2: license_check_2017-07-10_10:33:20.txt 
         Line: 1665, Text: - REPOSITORIES WITHOUT LICENSE FILE: 14 : ['abagnale', 'ace', 'Amanda', 'api-blueprint', 'api-blueprint-ast', 'api-blueprint-cheatsheet', 'api-blueprint-http-formatter', 'api-blueprint-rfcs', 'api-blueprint-sublime-plugin', 'api-elements', 'api-elements-jvm', 'api.apiblueprint.org', 'apiary-client', 'apiaryio.github.com', 'apiary_blueprint_convertor', 'apiblueprint.org', 'apiblueprintorg', 'attributes-kit', 'base-styles', 'batch']
         Line: 1666, Text: + REPOSITORIES WITHOUT LICENSE FILE: 30 : ['abagnale', 'api-blueprint-rfcs', 'apiaryio.github.com', 'batch', 'cloudwatch-to-papertrail', 'coffeescript-style-guide', 'difflet', 'documentation', 'dtl', 'dtl-1', 'googlediff', 'gzippo', 'heroku-datadog-drain', 'homebrew', 'hubot-redis-brain', 'JSON-js', 'kit-tooling', 'knox-mpu', 'lester', 'mongoose-dbref', 'natalie-venuto-test', 'nginx-buildpack', 'OKApi', 'pitboss', 'raven-node', 'stripe_to_xero', 'sundown', 'tully-test', 'uritemplate-js', 'winston-sentry']
