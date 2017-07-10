@@ -57,18 +57,18 @@ Please see the [requirements.txt](https://github.com/tystar86/apiary_license_che
       is saying that wrong version is given.
       * **REPOSITORIES TOTAL:** (total count of all repositories for the user), **REPOSITORIES WITHOUT LICENSE FILE:**, **REPOSITORIES WITHOUT LICENSE:** (repositories without any license in license, readme or package.json file)
       
-  ```     
-  ### File output
+      ```     
+      ### File output
 
-    REPO:  dredd-hooks-template
-    LICENSE :  MIT
-    README.md :  None
-    package.json :  MIT
-    devDependencies : 
-    ('gherkin-lint', '^2.0.0', 'ISC')
-    PULLS:
-    master:  [('LICENSE', 'MIT'), ('README.md', None), ('package.json', 'MIT')] head:  [('README.md', None)]
-  ```
+        REPO:  dredd-hooks-template
+        LICENSE :  MIT
+        README.md :  None
+        package.json :  MIT
+        devDependencies : 
+        ('gherkin-lint', '^2.0.0', 'ISC')
+        PULLS:
+        master:  [('LICENSE', 'MIT'), ('README.md', None), ('package.json', 'MIT')] head:  [('README.md', None)]
+      ```
       * **REPO:** (repository name), **LICENSE:** (type of license, if not present = license file not in the repository), **README:** (type of license, if None = readme file is in the directory but contains nothing about license, if not present = readme file not in the repository), **dependencies**/ **devDependencies**(listing all dependencies and their license type), **PULLS:** (if present it compares master files with head files)
 
 
