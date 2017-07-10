@@ -53,7 +53,8 @@ Please see the [requirements.txt](https://github.com/tystar86/apiary_license_che
 
         REPOSITORIES WITHOUT LICENSE: 9 : ['api-blueprint-rfcs', 'apiaryio.github.com', 'coffeescript-style-guide', 'JSON-js', 'kit-tooling', 'natalie-venuto-test', 'OKApi', 'raven-node', 'tully-test']
       ```
-      * `404 DEPENDENCIES: repo: apiblueprintorg , name: winston , version: git://github.com/apiaryio/winston.git#production` is saying that as a version is written **git://github.com/apiaryio/winston.git#production** instead of for **example 1.6.11**.
+      * `404 DEPENDENCIES: repo: apiblueprintorg , name: winston , version: git://github.com/apiaryio/winston.git#production` 
+      is saying that as a version is written **git://github.com/apiaryio/winston.git#production** instead of for **example 1.6.11**.
       * `REPOSITORIES TOTAL: `(total count of all repositories for the user), `REPOSITORIES WITHOUT LICENSE FILE:`, `REPOSITORIES WITHOUT LICENSE: `(repositories without any license in license, readme or package.json file)
   
       
