@@ -53,11 +53,11 @@ Please see the [requirements.txt](https://github.com/tystar86/apiary_license_che
 
         REPOSITORIES WITHOUT LICENSE: 9 : ['api-blueprint-rfcs', 'apiaryio.github.com', 'coffeescript-style-guide', 'JSON-js', 'kit-tooling', 'natalie-venuto-test', 'OKApi', 'raven-node', 'tully-test']
       ```
-Name                                     | Description
----------------------------------------- | ----------------------------------------------------------
-`REPOSITORIES TOTAL:`                    | total count of all repositories for the user
-`REPOSITORIES WITHOUT LICENSE FILE:`     | 
-`REPOSITORIES WITHOUT LICENSE:`          | Set the output structure type as either `ast` or `refract` (default: `refract`)
+Name                                  | Description
+------------------------------------- | ----------------------------------------------------------
+`REPOSITORIES TOTAL:`                 | total count of all repositories for the user
+`REPOSITORIES WITHOUT LICENSE FILE:`  | 
+`REPOSITORIES WITHOUT LICENSE:`       | 
 
 **NOTE**: *404 DEPENDENCIES:repo: apiblueprintorg, name: winston, version git://github.com/apiaryio/winston.git#production 
       is saying that wrong version is given.*
@@ -74,7 +74,7 @@ Name                                     | Description
         PULLS:
         master:  [('LICENSE', 'MIT'), ('README.md', None), ('package.json', 'MIT')] head:  [('README.md', None)]
  ```
-      **LICENSE:** , **** , ****, **** 
+ 
 Name                                     | Description
 ---------------------------------------- | ----------------------------------------------------------
 `REPO:`                                  | repository name
