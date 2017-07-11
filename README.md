@@ -19,7 +19,7 @@
 
 ### Getting Started
 
-If you will run this app for the first time, please follow the `Quick Start 1` as you do not have `auth_key.txt` and any file to compare with yet. 
+If you will run this app for the first time, please follow the `Check licenses` as you do not have `auth_key.txt` and any file to compare with yet. 
 
 ### Prerequisites
 
