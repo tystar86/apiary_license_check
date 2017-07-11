@@ -26,7 +26,7 @@ If you will run this app for the first time, please follow the `Quick Start 1` a
 Please see the [requirements.txt](https://github.com/tystar86/apiary_license_check/blob/master/requirements.txt) for libraries you need to install.
 
 
-### Quick Start 1
+### Check licenses
 
 1.  Create file `auth_key.txt` with Github token in the same directory.
     
@@ -82,14 +82,14 @@ Name                                     | Description
 ---
 
 
-## Quick Start 2
+## Check licenses and compare with previous
 
 1.  Run:
         ```
         $ python3 license_check.py license_check_2017-11-23_14:51:47
         ```
     
-2. Please see **Quick Start 1 point 3.** 
+2. Please see **Check licenses point 3.** 
    
       
 3. File `compare_files_%Y-%m-%d_%H:%M:%S` will be created. If compared files are same, the file will contain only their names.
